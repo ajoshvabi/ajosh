@@ -1,0 +1,162 @@
+
+#boldlink{
+    font-weight: bold;
+}
+nav{
+    background-image: url(image/bg2.jpg);
+}
+#mainpart{
+    /* position: fixed; */
+    display: flex;
+    height: 100vh;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    /* background-image: url(image/bg2.jpg); */
+}
+ #myimg{
+    border-radius: 30% 60% 30%;
+    max-width: 70%;
+    object-fit: contain;
+    box-shadow: 5px 6px 10px 4px rgba(179, 236, 240, 0.504);
+    transition: ease 0.5s;
+}
+
+#myimg:hover{
+    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.5),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    scale: 1.03;
+}
+#about{
+    border-radius: 5%;
+    max-width: 100%;
+    object-fit: contain;
+    box-shadow: 5px 6px 10px 4px rgba(149, 150, 150, 0.504);
+    transition: ease 0.5s;
+}
+
+#about:hover{
+    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.5),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    scale: 1.005;
+}
+#abt{
+background: #C726A7;
+background: -webkit-linear-gradient(to left, #C726A7 12%, #3348a3 82%);
+background: -moz-linear-gradient(to left, #C726A7 12%, #3348a3 82%);
+background: linear-gradient(to left, #C726A7 12%,#3348a3 82%);
+font-weight: 700;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+body{
+    background-image: url(image/bg2.jpg);
+}
+#aboutt{
+    background: #C726A7;
+background: -webkit-linear-gradient(to left, #4926c7 12%, #e3a73f 82%);
+background: -moz-linear-gradient(to left, #4926c7 12%, #e3a73f 82%);
+background: linear-gradient(to left, #4926c7 12%,#e3a73f 82%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#cc{
+    width: 400px;
+    height: 250px;
+    border-color:  rgba(75, 216, 226, 0.849);
+    border-radius: 5%;
+    background-position: top;
+    background: url('image/cc.jpeg');
+    background-size: cover;
+    transition: ease-out 3s;
+
+}
+.psh{
+    box-shadow: 5px 6px 10px 4px rgba(149, 150, 150, 0.504);
+    border-radius: 5%;
+    transition: ease 0.5s;
+}
+.psh:hover{
+    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.5),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#cc:hover{
+    background-position: bottom;
+    transition: ease-in 4s;
+    scale: 1.2;
+}
+#ep{
+    width: 400px;
+    height: 250px;
+    border-color:  rgba(75, 216, 226, 0.849);
+    border-radius: 5%;
+    background-position: top;
+    background: url('image/eplan.jpeg');
+    background-size: cover;
+    transition: ease-out 3s;
+    
+}
+#ep:hover{
+    background-position: bottom;
+    transition: ease-in 4s;
+    /* scale: 1.2; */
+}
+#p3{
+    width: 400px;
+    height: 250px;
+    border-color:  rgba(75, 216, 226, 0.849);
+    border-radius: 5%;
+    background-position: top;
+    background: url('image/softzane.jpeg');
+    background-size: cover;
+    transition: ease-out 3s;
+    
+}
+#p3:hover{
+    background-position: bottom;
+    transition: ease-in 4s;
+    /* scale: 1.2; */
+}
+#p4{
+    width: 400px;
+    height: 250px;
+    border-color:  rgba(75, 216, 226, 0.849);
+    border-radius: 5%;
+    background-position: top;
+    background: url('image/flipsc.jpeg');
+    background-size: cover;
+    transition: ease-out 3s;
+    
+}
+#p4:hover{
+    background-position: bottom;
+    transition: ease-in 4s;
+    /* scale: 1.2; */
+}
+#imgc{
+    background: url('image/cc.jpeg');
+    background-size: cover;
+}
+/* home */
+#myimg1{
+    border-radius: 50%;
+    max-width: 90%;
+    object-fit: cover;
+    box-shadow: 5px 6px 10px 4px rgba(179, 236, 240, 0.504);
+    transition: ease 0.5s;
+}
+
+#myimg1:hover{
+    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.5),  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    scale: 1.03;
+}
+#icon{
+    height: 100px; 
+}
+.parallelogram {
+	width: 50vh;
+	height: 100vh;
+	transform: skew(10deg);
+	background: #555;
+    rotate: 90deg;
+    left: -1000px;
+    right: -1000px;
+}
